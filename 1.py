@@ -16,6 +16,3 @@ if confirm_input:
         st.print('體重過重')
     else:
         st.print('體重肥胖')
-© 2021 GitHub, Inc.
-Terms
-Privacy
