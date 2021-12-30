@@ -1,4 +1,4 @@
-import randint
+#import randint
 #from random import randint
 import streamlit as st
 #規定範圍並產生密碼
