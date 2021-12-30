@@ -1,14 +1,14 @@
 from random import randint
 import random
-import randint
 import streamlit as st
+confirm_input = st.button('確認產生答案')
 #規定範圍並產生密碼
 lowest = 1
 highest = 100
 answer = random.randint(lowest, highest)
 
 #重複猜數字，直到猜對為止
-while True:
+if confirm_input:
     guess = input('密碼介於 ' + str(lowest) + '-' + str(highest) + ':\n>>')
     
     #檢查輸入的內容是否為數字
