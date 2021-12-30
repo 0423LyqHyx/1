@@ -1,5 +1,5 @@
-from random import randint
-
+#from random import randint
+import random
 #規定範圍並產生密碼
 lowest = 1
 highest = 100
