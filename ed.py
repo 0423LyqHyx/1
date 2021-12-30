@@ -16,12 +16,12 @@ if confirm_input:
         guess = int(guess)  #把字串轉換成整數
     except ValueError:  #轉換失敗便要求重新輸入數字
         st.write('格式錯誤，請輸入數字\n')
-        continue
+        #continue
     
     #檢查輸入的數字是否介於規定範圍內
     if guess <= lowest or guess >= highest:
         st.write('請輸入 ' + str(lowest) + '-' + str(highest) + ' 之間的整數\n')
-        continue
+        #continue
     
     #判斷有沒有猜中密碼
     if guess == answer:
