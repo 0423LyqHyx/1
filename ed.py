@@ -1,11 +1,11 @@
 from random import randint
 import random
-import randint
+#import randint
 import streamlit as st
 #規定範圍並產生密碼
 lowest = 1
 highest = 100
-answer = randint(lowest, highest)
+answer = random.randint(lowest, highest)
 
 #重複猜數字，直到猜對為止
 while True:
