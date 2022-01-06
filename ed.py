@@ -12,7 +12,7 @@ if confirm_input:
 if confirm_input: 
     x=st.number_input("請輸入%g到%g之間的整數:"%(st.session_state.start,st.session_state.end)) 
     confirm_input2 = st.button('輸入確認')
-#if confirm_input2:
+if confirm_input2:
     if x==st.session_state.c:
         st.write("恭喜你中獎了")
     elif x>st.session_state.c:
